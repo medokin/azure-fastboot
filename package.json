@@ -1,0 +1,20 @@
+{
+  "name": "azure-fastboot",
+  "version": "0.0.1",
+  "description": "Fastboot-Sever (ember.js) for Azure App Services ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ember.js",
+    "azure",
+    "fastboot"
+  ],
+  "author": "Nikodem Jaworski <nikodemjaworski@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fastboot-app-server": "^1.0.2",
+    "fastboot-fs-notifier": "^0.1.1"
+  }
+}

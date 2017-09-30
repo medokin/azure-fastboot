@@ -9,7 +9,8 @@ let notifier = new FSNotifier({
 let server = new FastBootAppServer({
   notifier: notifier,
   distPath: distPath,
-  gzip: true
+  gzip: true,
+  workerCount: 1
 });
 
 server.start();
